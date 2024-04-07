@@ -11,7 +11,7 @@ import SwiftUI
 struct PokettoApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViewCordinator()
         }
     }
 }

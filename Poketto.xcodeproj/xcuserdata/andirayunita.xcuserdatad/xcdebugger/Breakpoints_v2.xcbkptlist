@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "98BE92B3-EE7C-4F65-900B-0F0563D56F18"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F28CC29F-7783-4C52-94A0-5C922ADAE1DE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Modules/Pokemon/Model/Pokemon.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "AllPokemonResponse"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "55DFBF2A-8876-4F55-AA82-2E2D033D4469"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Modules/Pokemon/Model/Pokemon.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "Pokemon"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B1407296-0411-42CB-8417-478A1577286C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Modules/Pokemon/Model/Pokemon.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "Pokemon"
+            landmarkType = "14">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "368F8A62-759E-4010-90A8-D7CD3921CA6E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "fetchAllPokemons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "368F8A62-759E-4010-90A8-D7CD3921CA6E - 27257e3fa90317fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Poketto.APIService.fetchAllPokemons() async throws -&gt; Swift.Array&lt;Poketto.Pokemon&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "368F8A62-759E-4010-90A8-D7CD3921CA6E - cda2e78141f821b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Poketto.APIService.fetchAllPokemons() async throws -&gt; Swift.Array&lt;Poketto.Pokemon&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE859DFA-6569-4761-9A9E-621B91C39F9E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "fetchAllPokemons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BE859DFA-6569-4761-9A9E-621B91C39F9E - cda2e78141f822b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Poketto.APIService.fetchAllPokemons() async throws -&gt; Swift.Array&lt;Poketto.Pokemon&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "636">
+               </Location>
+               <Location
+                  uuid = "BE859DFA-6569-4761-9A9E-621B91C39F9E - 9417b8e76ff3e30b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for Poketto.APIService.fetchAllPokemons() async throws -&gt; Swift.Array&lt;Poketto.Pokemon&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "BE859DFA-6569-4761-9A9E-621B91C39F9E - 9bec4cb2231f66b6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Poketto.APIService.fetchAllPokemons() async throws -&gt; Swift.Array&lt;Poketto.Pokemon&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "BE859DFA-6569-4761-9A9E-621B91C39F9E - fed700246c33c8b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for Poketto.APIService.fetchAllPokemons() async throws -&gt; Swift.Array&lt;Poketto.Pokemon&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E118BB90-C7DD-4FD3-86F4-ABABC9068464"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchAllPokemons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DD599CE-FED1-4FEA-B1AD-072DEFF7E094"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchAllPokemons()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E4FCD6DF-FB3C-4A4B-BED0-A7D4739F6432"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "fetchPokemonDetails(urlString:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E4FCD6DF-FB3C-4A4B-BED0-A7D4739F6432 - 3d05635e88531718"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Poketto.APIService.fetchPokemonDetails(urlString: Swift.String) async throws -&gt; Swift.Optional&lt;Poketto.PokemonDetails&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "348">
+               </Location>
+               <Location
+                  uuid = "E4FCD6DF-FB3C-4A4B-BED0-A7D4739F6432 - c9f4b0e22026f4e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Poketto.APIService.fetchPokemonDetails(urlString: Swift.String) async throws -&gt; Swift.Optional&lt;Poketto.PokemonDetails&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "E4FCD6DF-FB3C-4A4B-BED0-A7D4739F6432 - c9f4b0e22026f4e3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Poketto.APIService.fetchPokemonDetails(urlString: Swift.String) async throws -&gt; Swift.Optional&lt;Poketto.PokemonDetails&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "464">
+               </Location>
+               <Location
+                  uuid = "E4FCD6DF-FB3C-4A4B-BED0-A7D4739F6432 - c821058e0a4c30e5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for Poketto.APIService.fetchPokemonDetails(urlString: Swift.String) async throws -&gt; Swift.Optional&lt;Poketto.PokemonDetails&gt;"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Services/APIService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "37"
+                  endingLineNumber = "37"
+                  offsetFromSymbolStart = "2056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "37A7CEB9-E4B9-43C7-BE04-3EE5DCD36BA3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "fetchPokemonDetails(urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A16EA660-45AC-4701-BADF-46DFEE4CB2D8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Services/APIService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "fetchPokemonDetails(urlString:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69DC3484-CF91-427E-BDBF-7D12D003C547"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Poketto/Modules/Pokemon/ViewModel/PokemonViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "fetchPokemons()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69DC3484-CF91-427E-BDBF-7D12D003C547 - 7c1ea383f1071a5b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Poketto.PokemonViewModel.fetchPokemons() async -&gt; ()"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Modules/Pokemon/ViewModel/PokemonViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "292">
+               </Location>
+               <Location
+                  uuid = "69DC3484-CF91-427E-BDBF-7D12D003C547 - 3d2ae33c52e02eb4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for Poketto.PokemonViewModel.fetchPokemons() async -&gt; ()"
+                  moduleName = "Poketto"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/andirayunita/Desktop/Poketto/Poketto/Modules/Pokemon/ViewModel/PokemonViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
