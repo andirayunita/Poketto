@@ -16,15 +16,11 @@ struct PokettoTabView: View {
                 }
                 .toolbarBackground(.white, for: .tabBar)
             
-            ZStack {
-                RoundedRectangle(cornerRadius: 10)
-                    .foregroundStyle(.yellow)
-                Text("Collection Page")
-            }
-            .tabItem {
-                Label("Collection", systemImage: "list.bullet.circle.fill")
-            }
-            .toolbarBackground(.white, for: .tabBar)
+            MyPokemon()
+                .tabItem {
+                    Label("Collection", systemImage: "list.bullet.circle.fill")
+                }
+                .toolbarBackground(.white, for: .tabBar)
         }
         .tint(.yellow)
     }

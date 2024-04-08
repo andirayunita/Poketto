@@ -41,6 +41,8 @@ struct PokemonDetails: Codable {
     var movesString: String {
         moves.map({ $0.move.name.capitalized }).joined(separator: ", ")
     }
+    
+    var isPokemonCatched = Bool()
 
     enum CodingKeys: String, CodingKey {
         case abilities = "abilities"

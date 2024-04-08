@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct PokemonDetailView: View {
-    @State private var showAlert = false
-    var pokemon: Pokemon
+    @State private var showAlertCatched = false
+    @State private var showAlertNotCatch = false
+    @ObservedObject var pokemonVM = PokemonViewModel()
+    var pokemon: Pokemon?
     
     var body: some View {
         ScrollView {
@@ -18,21 +20,32 @@ struct PokemonDetailView: View {
                         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 500, maxHeight: 650)
                         .foregroundStyle(ColorUtility.randomColor())
                     
-                    AsyncImageView(pokemon: pokemon)
-                        .frame(width: 200, height: 200)
+                    if let pokemon = pokemon {
+                        AsyncImageView(pokemon: pokemon)
+                            .frame(width: 200, height: 200)
+                    }
                 }
                 .ignoresSafeArea()
                 
                 VStack(alignment: .leading, spacing: 20) {
-                    Text(pokemon.name.capitalized)
+                    Text(pokemon?.name.capitalized ?? "")
                         .font(.system(.title, design: .rounded))
                         .fontWeight(.bold)
                     
-                    Text("Types: ") + Text(pokemon.pokemonDetails?.typesString ?? "")
-                    Text("Moves: ") + Text(pokemon.pokemonDetails?.movesString ?? "")
+                    Text("Types: ") + Text(pokemon?.pokemonDetails?.typesString ?? "")
+                    Text("Moves: ") + Text(pokemon?.pokemonDetails?.movesString ?? "")
                     Spacer()
                     Button {
-                        print("Button tapped")
+                        print("\(MathHelper().isCatched())")
+                        if MathHelper().isCatched() == true {
+                            if let pokemon = pokemon {
+                                pokemonVM.catchedPokemon(pokemon: pokemon)
+                                print("Added pokemon")
+                            }
+                            showAlertCatched = true
+                        } else {
+                            showAlertNotCatch = true
+                        }
                     } label: {
                         Text("Catch Pokemon!")
                             .font(.system(.title2, design: .rounded))
@@ -47,6 +60,15 @@ struct PokemonDetailView: View {
                 }
                 .padding(.horizontal, 16)
                 .padding(.top, 12)
+                .alert("Congrats, you've got a Pokemon!", isPresented: $showAlertCatched) {
+                    Button("OK") {}
+                } message: {
+                    Text("Check in your own list pokemon")
+                }
+                .alert("Failed to catch a Pokemon!", isPresented: $showAlertNotCatch) {
+                    Button("OK") {}
+                }
+
         }
         .ignoresSafeArea(edges: .top)
         .scrollIndicators(.hidden)

@@ -42,8 +42,9 @@ struct MathHelper {
     
     // MARK: - isCatched probability
     func isCatched() -> Bool {
-        let randomNumber = Int.random(in: 1...100)
-        let percentage = (Double(randomNumber/100) * 100)
+        let randomNumber = Int.random(in: 1...10)
+        let percentage = (Double(randomNumber/10) * 100)
+        print("\(percentage)")
         return percentage >= 50
     }
 }

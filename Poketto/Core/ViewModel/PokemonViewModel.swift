@@ -10,6 +10,7 @@ import Foundation
 @MainActor
 class PokemonViewModel: ObservableObject {
     @Published var pokemons: [Pokemon] = []
+    @Published var catchedPokemon: [Pokemon] = []
     
     func fetchPokemons() async {
         do {
@@ -22,6 +23,24 @@ class PokemonViewModel: ObservableObject {
             }
         } catch {
             print("Error: Couldn't get all pokemons and its details from URL: \(Constants.pokemonsUrl), \(error.localizedDescription)")
+        }
+    }
+    
+    func releasePokemon(pokemon: Pokemon) {
+        if let index = catchedPokemon.firstIndex(where: { $0.id == pokemon.id }) {
+            self.catchedPokemon.remove(at: index)
+        }
+    }
+    
+    func catchedPokemon(pokemon: Pokemon) {
+        if let index = pokemons.firstIndex(where: { $0.id == pokemon.id }) {
+            pokemons[index].pokemonDetails?.isPokemonCatched.toggle()
+            if pokemons[index].pokemonDetails?.isPokemonCatched == true {
+                self.catchedPokemon.append(pokemons[index])
+                print("Pokemon is catched!")
+            } else {
+                self.catchedPokemon.removeAll { $0.id == pokemon.id }
+            }
         }
     }
 }
